@@ -1,0 +1,45 @@
+#footer_wrapper{
+  border-top: 4px solid black;
+  width: 100%;
+  min-width: 100%;
+  background-color: #222;
+  color: white;
+
+}
+#footer_upper {
+
+}
+#footer_information {
+  padding: 10px;
+  text-align: left;
+}
+.footer_info {
+  text-align: center;
+  li{
+    margin: 4px;
+    display: inline-block;
+  }
+}
+
+#footer_lower {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 10px;
+  color: white;
+  background-color: purple;
+  text-align: center;
+  h4, h5{
+    margin: 5px;
+  }
+}
+#footer_contact {
+  padding-left: 15px;
+  background-color: red;
+  font-style: italic;
+  * {
+    display: inline-block;
+  }
+}
+#social_media{
+  text-align: center;
+}

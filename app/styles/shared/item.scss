@@ -1,0 +1,39 @@
+.item_wrapper{
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px #888;
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+  height: 100%;
+  width: 100%;
+
+  img{
+    margin: auto;
+    max-width: 100px;
+    max-height: 100px;
+
+
+  }
+  &:hover{
+    border-radius: 6px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+.item_attibutes {
+  font-style: italic;
+}
+.item_header{
+  width: 100%;
+  span{
+    padding: 10px;
+  }
+}
+.item_name {
+  text-align: left;
+}
+.item_price{
+  text-align: right;
+}

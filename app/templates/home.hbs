@@ -1,0 +1,22 @@
+
+<div id="items">
+  {{#each model.items as |item|}}
+    <div class="item_wrapper">
+        <div>
+          <!-- Item image goes here -->
+          {{#link-to "items.show" item}}
+            <img src="{{item.imageUrl}}">
+          {{/link-to}}
+        </div>
+        <div class="item_attibutes">
+            <h3 class="item_header">
+              <span class="item_name">{{item.name}}</span>
+              <span class="item_price">${{item.price}}</span>
+            </h3>
+        </div>
+    </div>
+
+  {{/each}}
+</div>
+
+{{outlet}}

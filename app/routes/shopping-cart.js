@@ -2,11 +2,8 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
   renderTemplate(){
-    this.render('items.show', {
+    this.render("shopping-cart",{
       into: "application"
     });
-  },
-  model(params){
-    return this.store.findRecord("item", params.item_id);
   }
 });

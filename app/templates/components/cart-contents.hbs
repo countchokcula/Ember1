@@ -1,1 +1,14 @@
+<div>
+  <h4 style="{{cart.displayIfEmpty}}">
+    You have no items in your cart
+  </h4>
+  {{cart.order_items}}
+  <ul>
+    {{#each cart.order_items as |item|}}
+      <li>
+        {{item.name}}
+      </li>
+    {{/each}}
+  </ul>
+</div>
 {{yield}}
